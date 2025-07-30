@@ -16,10 +16,8 @@ public class condition6 {
         int score = scanner.nextInt();
         String grade = "";
 
-        if (score > 100) {
-            grade = "X100 이상인수는 점수에 포함되어있지 안습니다";
-        } else if (score <0) {
-            System.out.println("X0미만인 수는 없습니다");
+        if (score > 100||score <0) {
+            grade = "X";
         }else if (score >= 90) {
             grade = "A";
         } else if (score >= 80) {
@@ -31,6 +29,7 @@ public class condition6 {
         } else if (score < 50) {
             grade = "E";
         }
+//         논리연산자
 
         System.out.println(grade);
     }

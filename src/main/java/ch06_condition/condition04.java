@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class condition04  {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("회원 포인트를 입력");
+        System.out.print("회원 포인트를 입s력");
         int point = scanner.nextInt();
         String userGrade="";
         if (point > 80) {
